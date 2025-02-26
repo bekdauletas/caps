@@ -106,10 +106,10 @@ AddDepartment - Pascal case (all words capitalized)
 
 
 9)
-A. System Testing
-B. Top-Down Testing
-def test_with_stub_cart: Unit Testing
-def calculate_total: Stub Implementation
+A: Integration Test
+B: Top-Down Testing
+test_with_stub_cart → Top-Down Testing
+calculate_total → Integration Test
 
 
 10)
