@@ -1,0 +1,123 @@
+1)
+srs_mean: 50.6
+srs_se: 6.8851
+ci_upper: 64.6455
+ci_lower: 36.5545
+crs_mean: 50.6
+crs_se: 7.6243
+d_value: 1.1074
+d_squared: 1.2263
+roh: 0.2263
+Neff: 13.0477
+
+2)
+n=10
+Cost Function (Round): 895241
+Optimal Theta parameter (Round): [2167, -54, 839, -47, -31, 1001, 1080, 436, 283]
+
+n=100
+Cost Function (Round): 42271
+Optimal Theta parameter (Round): [3328, 50, 230, 125, 192, 1244, 1897, 18, 63]
+
+n=1000
+Cost Function (Round): 1261
+Optimal Theta parameter (Round): [3328, -17, -520, 119, 228, 1231, 2651, -64, 200]
+
+3)
+N=100, alpha=0.1, lambda=0.1
+Cost function (rounded up to 2 digits after floating point): 0.28
+Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 1.61
+
+N=1000, alpha=0.2, lambda=1
+Cost function (rounded up to 2 digits after floating point): 0.16
+Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 4.59
+
+N=10000, alpha=0.3, lambda=10
+Cost function (rounded up to 2 digits after floating point): 0.33
+Optimal theta parameter maximum value (rounded up to 2 digits after floating point): 2.02
+
+Number of ones in the first 10 rows of predictions (threshold=0.5): 6
+
+
+4)
+Final Predictions: [[0.5]
+ [0.5]]
+a4 = [0.5, 0.5]
+a3_min = 0.999
+W4_max = 0.15
+W3_min = 0.19
+Loss after 10000 epochs: 0.5
+General Conclusion after 10000 epochs: NN predicts image of dog
+
+
+5)
+Accuracy: 0.988
+F-1 score (class = 0): 0.984
+F-1 score (class = 1): 0.987
+F-1 score (class = 2): 0.992
+
+Digits for Accuracy: [0, 9, 8, 8]
+Digits for F-1 score (class = 0): [0, 9, 8, 4]
+Digits for F-1 score (class = 1): [0, 9, 8, 7]
+Digits for F-1 score (class = 2): [0, 9, 9, 2]
+
+
+6)
+A: User Roles
+B: User Requirements
+C: Security Requirements
+D: Operational Constraints
+E: User Management
+F: Book Management
+
+
+7)
+ge Group: 25-34
+1. Count: 384
+2. Proportion (p): 0.2560
+3. Standard Error (SE): 0.0113
+4. 95% CI (Unadjusted): [0.2339, 0.2781]
+5. Intraclass Correlation (rho): 0.025
+6. Average Cluster Size (m): 6
+7. Design Effect (DEFF): 1.1250
+8. Adjusted Standard Error (SE_adj): 0.0120
+9. 95% CI (Adjusted): [0.2326, 0.2794]
+
+Age Group: 35-44
+1. Count: 336
+2. Proportion (p): 0.2240
+3. Standard Error (SE): 0.0108
+4. 95% CI (Unadjusted): [0.2029, 0.2451]
+5. Intraclass Correlation (rho): 0.03
+6. Average Cluster Size (m): 5
+7. Design Effect (DEFF): 1.1200
+8. Adjusted Standard Error (SE_adj): 0.0114
+9. 95% CI (Adjusted): [0.2017, 0.2463]
+
+
+8)
+intEmployeeID - Hungarian notation (prefix indicates type)
+Employee constructor - Pascal case (capitalized words)
+setEmployeeID - Camel case (first word lowercase, subsequent words capitalized)
+strDepartmentName - Hungarian notation (prefix indicates type)
+strCEO - Acronym (all capitals)
+strCTO - Acronym (all capitals)
+AddDepartment - Pascal case (all words capitalized)
+
+
+9)
+A. System Testing
+B. Top-Down Testing
+def test_with_stub_cart: Unit Testing
+def calculate_total: Stub Implementation
+
+
+10)
+A. Component Diagram (Frontend-Backend-Data architecture)
+B. Deployment Diagram (DataCenter infrastructure)
+C. Object Diagram (User-Account-Transaction instances)
+D. Package Diagram (Security-UserManagement-AccountManagement modules)
+E. Activity Diagram (Detailed transaction flowchart)
+F. Composite Structure Diagram (BankingSystem with subcomponents)
+G. Activity Diagram (Simple process flow)
+H. Timing Diagram (Authentication and transaction timeline)
