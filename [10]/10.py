@@ -1,0 +1,8 @@
+A: OK Case (Correct implementation)
+B: Missing Closing Brace (Missing semicolon ; in int temp = arr[j])
+C: Logical Error (Incorrect comparison if (arr[j] > arr[i]))
+D: Wrong Loop Condition (Incorrect condition j <= n - i - 1)
+E: Undefined Variable Bug (return fib; instead of return c;)
+F: Logical Error (Incorrect loop range i < n instead of i <= n)
+G: Missing Closing Brace (Missing semicolon ; in exception handling)
+H: OK Case (Correct Fibonacci implementation)
